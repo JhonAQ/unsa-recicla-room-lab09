@@ -2,6 +2,8 @@
 
 Aplicación Android individual para el laboratorio «Registro de datos locales con Room». Se basa en la propuesta del proyecto del curso UNSA RECICLA y no modifica AlertaUNI.
 
+Repositorio de entrega: https://github.com/JhonAQ/unsa-recicla-room-lab09
+
 ## Funcionalidad
 
 - Registra el retorno de 1 a 99 botellas PET; cada botella suma un EcoPunto.
