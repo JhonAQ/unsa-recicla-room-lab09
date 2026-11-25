@@ -1,0 +1,28 @@
+Laboratorio 09 — verificación en 2026-11-25
+
+Comando: ./gradlew --no-daemon assembleDebug connectedDebugAndroidTest
+Dispositivo de pruebas: emulador Android API 37
+Resultado: BUILD SUCCESSFUL; 3 pruebas instrumentadas completadas.
+
+1. insertUpdateDeleteAndBalance: inserción/consulta, actualización
+   de 3 a 4 puntos y eliminación (saldo final 0).
+2. canjeRequiereSaldoYSuMovimientoSeObserva: rechazo sin saldo,
+   retorno de 7 puntos, canje de 5 y saldo final 2.
+3. datosPersistenAlReabrirLaBase: reapertura de base en disco con
+   conservación de saldo y movimiento.
+
+Recorrido manual en emulador:
+1. Registrar una botella: saldo +1 y fila RETORNO visible.
+2. Forzar cierre y volver a iniciar: saldo y movimiento permanecen.
+3. Eliminar el movimiento: saldo 0 y lista vacía.
+
+Recorrido manual en teléfono Android conectado por USB:
+1. Instalación del APK: Success.
+2. Registrar una botella: saldo +1 y fila RETORNO visible.
+3. Forzar cierre y reabrir: saldo 1 y movimiento conservados.
+4. Eliminar el movimiento: saldo 0 y lista vacía.
+Las capturas completas de este recorrido se incluyen en el informe.
+
+Nota de entorno: AGP 8.12 advierte que fue probado oficialmente
+hasta SDK 36, mientras que aquí se compiló con SDK 37. La
+compilación y las pruebas concluyeron correctamente.
