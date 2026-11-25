@@ -1,6 +1,8 @@
 # UNSA RECICLA — Laboratorio 09 (IDNP)
 
-Aplicación Android individual para el laboratorio «Registro de datos locales con Room». Se basa en la propuesta del proyecto del curso UNSA RECICLA y no modifica AlertaUNI.
+Aplicación Android para el laboratorio «Registro de datos locales con Room». Se basa en la propuesta del proyecto del curso UNSA RECICLA y no modifica AlertaUNI.
+
+Integrantes: Jhonatan David Arias Quispe, Johann Andre Caceres Ruiz, Paul Andree Cari Lipe y Jhossep Fabritzio Velarde Saldaña.
 
 Repositorio de entrega: https://github.com/JhonAQ/unsa-recicla-room-lab09
 

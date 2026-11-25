@@ -5,7 +5,12 @@
   lab_title: "Registro local de datos con Room · UNSA RECICLA",
   lab_number: "09",
   instructor_name: "Christian Alain Revilla Arroyo",
-  members: ("Arias Quispe, Jhonatan David",),
+  members: (
+    "Arias Quispe, Jhonatan David",
+    "Caceres Ruiz, Johann Andre",
+    "Cari Lipe, Paul Andree",
+    "Velarde Saldaña, Jhossep Fabritzio",
+  ),
   year: 2026,
   sem_code: "B",
   presentation_date: "25/11/2026",
@@ -73,7 +78,7 @@ La evidencia permite afirmar que Room conserva los movimientos dentro del almace
 #lab-section(title: "V. CONCLUSIONES Y ALCANCE")[
 Se completaron los componentes solicitados por la guía: entidad Room con clave primaria y más de tres atributos, DAO con operaciones de escritura y consulta, base local, formulario, LazyColumn, eliminación y evidencia de persistencia. La compilación y las tres pruebas instrumentadas pasaron en el emulador. El recorrido manual confirmó registro, reapertura y eliminación visibles en la interfaz.
 
-El prototipo es local e individual. No incorpora identificación del estudiante, comunicación con hardware RVM ni emisión real de beneficios; esos componentes pertenecen al proyecto completo. Si se integra al sistema del curso, las reglas de EcoPuntos y canjes deberán validarse con el equipo y asociarse a usuarios autenticados.
+El prototipo del equipo es local. No incorpora identificación del estudiante, comunicación con hardware RVM ni emisión real de beneficios; esos componentes pertenecen al proyecto completo. Si se integra al sistema del curso, las reglas de EcoPuntos y canjes deberán validarse con el equipo y asociarse a usuarios autenticados.
 ]
 
 #lab-section(title: "REFERENCIAS")[
